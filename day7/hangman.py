@@ -18,13 +18,19 @@ for _ in range(word_length):
 #  and 'display' has no more blanks ("_").
 #  Then you can tell the user they've won.
 
-guess = input("Guess a letter: ").lower()
+end_of_game = False
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
 
-# Check guessed letter
-for position in range(word_length):
-    letter = chosen_word[position]
-    print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
-    if letter == guess:
-        display[position] = letter
+    # Check guessed letter
+    for position in range(word_length):
+        letter = chosen_word[position]
+        if letter == guess:
+            display[position] = letter
+    print(display)
+    # Usecase for in keyword
+    if "_" not in display:
+        end_of_game = True
+        print("You won")
 
-print(display)
+
