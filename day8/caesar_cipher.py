@@ -18,7 +18,7 @@ def caesar(direction_of_caesar, plain_text, shift_number):
             new_letter = alphabet[new_position]
             cipher_text += new_letter
         else:
-            cipher_text += " "
+            cipher_text += letter
     print(f"The {direction_of_caesar}d text is {cipher_text}")
 
 
