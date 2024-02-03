@@ -38,5 +38,10 @@ for key in operations:
 operation_symbol = input("Pick an operation from above line : ")
 num2 = int(input("What's the Second number? : "))
 
-answer = operations[operation_symbol](num1, num2)
-print(f"{num1} {operation_symbol} {num2} = {answer}")
+first_answer = operations[operation_symbol](num1, num2)
+print(f"{num1} {operation_symbol} {num2} = {first_answer}")
+operation_symbol = input("Pick another operation : ")
+num3 = int(input("What's the next number? : "))
+second_answer = operations[operation_symbol](first_answer, num3)
+print(f"{first_answer} {operation_symbol} {num3} = {second_answer}")
+
