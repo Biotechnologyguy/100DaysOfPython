@@ -12,6 +12,7 @@ while lives and not won:
     guess = int(input("Make a guess : "))
     if computer_guess == guess:
         won = True
+        lives = 0
         print(f"You got it. Answer was {computer_guess}")
     elif guess < computer_guess:
         print("Please try entering higher number.")
