@@ -63,3 +63,12 @@ def increase_enemies2():
 
 increase_enemies2()
 print(f"enemies outside function: {enemies2}")
+
+
+print("########## Constants and Global Scope ###########")
+
+PI = 3.14159
+URL = "https://www.biotechnologyguy.com"
+INSTAGRAM_HANDLE = "@Biotechnologyguy"
+
+
