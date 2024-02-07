@@ -1,31 +1,19 @@
-MENU = {
-    "espresso": {
-        "ingredients": {
-            "water": 50,
-            "coffee": 18,
-        },
-        "cost": 1.5,
-    },
-    "latte": {
-        "ingredients": {
-            "water": 200,
-            "milk": 150,
-            "coffee": 24,
-        },
-        "cost": 2.5,
-    },
-    "cappuccino": {
-        "ingredients": {
-            "water": 250,
-            "milk": 100,
-            "coffee": 24,
-        },
-        "cost": 3.0,
-    }
-}
+from data import MENU, resources
 
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
-}
+machine_is_on = True
+
+
+# creating the function to print the report
+def print_report():
+    for resource in resources:
+        print(f"{resource} : {resources[resource]}")
+
+
+while machine_is_on:
+    user_wants = input("What would you like? (espresso/latte/cappuccino): ")
+    if user_wants.lower() == "report":
+        print_report()
+    elif user_wants.lower() == "off":
+        machine_is_on = False
+
+
