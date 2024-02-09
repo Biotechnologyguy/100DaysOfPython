@@ -14,3 +14,26 @@
 # How to create an object
 #     obj = ClassName()
 
+from turtle import Turtle, Screen
+
+timmy = Turtle()
+print(timmy)
+timmy.shape("turtle")
+timmy.color("coral")
+
+# https://docs.python.org/3/library/turtle.html
+# Turtle docs
+timmy.forward(100)
+timmy.right(100)
+timmy.forward(100)
+my_screen = Screen()
+print(my_screen.canvwidth)
+print(my_screen.canvheight)
+
+# Allows our program to run until we click
+my_screen.exitonclick()
+
+
+
+
+
