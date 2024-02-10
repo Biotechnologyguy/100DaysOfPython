@@ -14,9 +14,9 @@ celeb1 = get_random_celeb()
 
 while user_is_correct:
     celeb2 = get_random_celeb()
-    print(f"Compare A: {celeb1["name"]}, a {celeb1["description"]}, from {celeb1["country"]}")
+    print(f"Compare A: {celeb1['name']}, a {celeb1['description']}, from {celeb1['country']}")
     print(vs)
-    print(f"Compare B: {celeb2["name"]}, a {celeb2["description"]}, from {celeb2["country"]}")
+    print(f"Compare B: {celeb2['name']}, a {celeb2['description']}, from {celeb2['country']}")
     user_answer = input("Who has more followers? Type 'A' or 'B' : ")
     if user_answer.lower() == "a" and celeb1["follower_count"] > celeb2["follower_count"]:
         user_score += 1
