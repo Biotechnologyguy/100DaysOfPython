@@ -20,3 +20,4 @@
 ## 📚 Intermediate
 - [Day 15:](https://github.com/Biotechnologyguy/100DaysOfPython/tree/main/day15) Local Development Environment Setup & the Coffee Machine
 - [Day 16:](https://github.com/Biotechnologyguy/100DaysOfPython/tree/main/day16) Object-Oriented Programming (OOP)
+- [Day 17:](https://github.com/Biotechnologyguy/100DaysOfPython/tree/main/day17) The Quiz Project & The Benefits of OOP
