@@ -23,3 +23,4 @@
 - [Day 17:](https://github.com/Biotechnologyguy/100DaysOfPython/tree/main/day17) The Quiz Project & The Benefits of OOP
 - [Day 18:](https://github.com/Biotechnologyguy/100DaysOfPython/tree/main/day18) Turtle & the Graphical User Interface (GUI)
 - [Day 19:](https://github.com/Biotechnologyguy/100DaysOfPython/tree/main/day19) Instances, State and Higher Order Functions
+- [Day 20:](https://github.com/Biotechnologyguy/100DaysOfPython/tree/main/day20) Build the Snake Game Part 1: Animation & Coordinates
